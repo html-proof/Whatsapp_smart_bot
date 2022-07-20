@@ -26,8 +26,7 @@ def num():
             message = input("input the message :")
             time_hour = int(input("input the Hour to sent message :"))
             time_min = int(input("input the min to sent message :"))
-            sendwhatmsg(phone_no=phone_number, message=message, time_hour=time_hour, time_min=time_min, wait_time=15,
-                            tab_close=False, close_time=3)
+            sendwhatmsg(phone_no=phone_number, message=message, time_hour=time_hour, time_min=time_min, wait_time=15,tab_close=False, close_time=3)
         except:
             pass
     if choice ==3:
