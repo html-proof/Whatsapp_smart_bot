@@ -58,8 +58,4 @@ def num():
         except:
             pass
 
-
-
-
-
 num()
